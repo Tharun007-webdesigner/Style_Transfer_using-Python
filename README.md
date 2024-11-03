@@ -1,2 +1,2 @@
 # Style_Transfer_using-Python
-combining two styles of images into an single image
+Style transfer in Python uses neural networks to blend the "style" of one image with the "content" of another. Using framework like TensorFlow, a pre-trained CNN (like VGG-19) extracts features from both images. By optimizing a loss function that combines content and style differences, we iteratively adjust the output image to match the content structure with the chosen style’s textures and colors, creating a unique, stylized result.
